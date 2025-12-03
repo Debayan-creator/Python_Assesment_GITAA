@@ -53,3 +53,49 @@ print("division",div)
 print("modulos",mod)
 print("power",power)
 print("Floor",floor)
+
+'''
+The radius of a circle is 30 meters.
+Calculate the area of a circle and assign the value to a variable name of area_of_circle
+Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+Take radius as user input and calculate the area.
+'''
+
+import math
+radius = 30
+pi_value = math.pi
+area = pi_value*radius**2
+print("Area",area)
+
+circumference = 2*pi_value*radius
+print("circumference", circumference)
+
+custom_r = int(input("Enter radius: "))
+area = pi_value*custom_r**2
+print("Area",area)
+
+
+'''
+Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+'''
+
+first_name=input("Enter your First Name ")
+second_name = input("Enter your second name ")
+country=input("Enter your country name ")
+age=input("Enter your age ")
+
+print("Your name is "+first_name+" "+second_name+" of age "+age+" from "+country)
+
+help('keywords')
+
+
+
+
+
+
+
+
+
+
+
+
